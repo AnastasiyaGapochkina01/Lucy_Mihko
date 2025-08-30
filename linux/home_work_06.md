@@ -8,7 +8,7 @@ pandoc -f markdown -t html <(echo "# Hello")
 <h1 id="hello">Hello</h1>
 ```
 3) Установить `mc` из исходников (https://midnight-commander.org/source-code/)
-4) В файле `/var/log/apt/history.log` найти последние 5 установленных пакета (нужны только названия пакетов) и удалить последний пакет, который был установлен
+4) В файле `/var/log/apt/history.log` найти последние 5 установленных пакетов (нужны только названия пакетов) и удалить последний пакет, который был установлен
 5) Очистить систему от неиспользуемых зависимостей
 6) Скомпилировать с помощью CMake код на C++ (подсказка тут https://labex.io/tutorials/linux-linux-cmake-command-with-practical-examples-422608) 
 ##### main.cpp
